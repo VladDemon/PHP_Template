@@ -1,0 +1,13 @@
+openapi: 3.0.0
+info:
+  title: 'My First API'
+  version: '0.1'
+paths:
+  /home:
+    get:
+      summary: 'Get home page'
+      description: 'Returns the home page content'
+      operationId: cf03635ec4d29b55e30890f426e064c2
+      responses:
+        '200':
+          description: 'Successful response'
